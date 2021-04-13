@@ -1,0 +1,50 @@
+\documentclass{proc}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+
+\title{Including Graphics}
+\author{Javad M Alizadeh}
+\date{}
+
+\begin{document}
+\maketitle
+	
+\section{Introduction}
+
+Picture books are just \emph{better}
+
+\subsection{Including Graphics}
+
+This is \LaTeX's logo:
+\smallskip
+\begin{center}
+	\includegraphics[width=2in]{latex.png}
+\end{center}
+
+
+\subsection{Float: Figure Environment}
+
+In my article, I want to include an image. You can see this image in Figure~\ref{fig:latex's logo}.
+
+\begin{figure}[htbp]
+	\caption{\LaTeX's logo}
+	\begin{center}
+		\includegraphics[width=2in]{latex.png}
+	\end{center}
+	\label{fig:latex's logo}
+\end{figure}
+
+\begin{figure}[htbp]
+	\caption{TeXstudio's logo}
+	\begin{center}
+		\includegraphics[width=2in]{TeXstudio.png}
+	\end{center}
+	\label{fig:TeXstudio's logo}
+\end{figure}
+	
+	
+\section{Conclusion}
+	
+	
+\end{document}
