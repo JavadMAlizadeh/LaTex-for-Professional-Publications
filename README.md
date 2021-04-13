@@ -1,5 +1,5 @@
 # Udemy:
-LaTex for Professional Publications
+LaTex for Professional Publications (Toni Farley)
 
 # Course Link:
 https://www.udemy.com/course/learn-latex/
